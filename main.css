@@ -1,0 +1,64 @@
+body {
+    background: #2F4F4F;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  
+}
+
+
+
+.white-keys>kbd {
+    display:inline-block;
+    list-style: none;
+    width: 5vw;
+    height: 15vw;
+    text-align: center;
+    border: 4px solid grey;
+    padding: 0;
+    margin-left: -4px;
+    display: table-cell;
+    vertical-align: bottom;
+    z-index: 1;
+    font-family: 'McLaren', cursive;
+    
+}
+.black-keys{
+    position:absolute;
+    top:0;
+    margin-left: 0px;
+    margin-right: -4px;
+    margin-top: -2px;
+    display: inline-block;
+
+}
+.black-keys>kbd {
+    display:inline-block;
+    width: 3vw;
+    height: 10vw;
+    background-color:black;
+    color: white;
+    font-family: 'McLaren', cursive;
+    text-align: center;
+    z-index: 1;
+}
+
+.kbdW {
+    margin-left: 4vw;
+}
+.kbdE,  .kbdU {
+    margin-left: 2vw;
+}
+.kbdT {
+    margin-left: 8vw;
+}
+.kbdY {
+    margin-left: 2.3vw;
+}
